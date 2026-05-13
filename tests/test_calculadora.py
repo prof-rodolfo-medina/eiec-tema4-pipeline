@@ -5,7 +5,7 @@ from app.calculadora import dividir, multiplicar, restar, sumar
 
 @pytest.mark.unit
 def test_sumar():
-    assert sumar(2, 2) == 4
+    assert sumar(2, 2) == 5
 
 
 @pytest.mark.unit
