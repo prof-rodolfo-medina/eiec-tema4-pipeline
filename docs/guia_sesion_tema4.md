@@ -46,3 +46,5 @@ Cierre:
 - Qué falló.
 - Qué información entregó el log.
 - Por qué no se debe fusionar un PR con pipeline rojo.
+
+Nota demo: este cambio debe pasar el pipeline.
