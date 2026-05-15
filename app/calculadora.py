@@ -24,3 +24,11 @@ def dividir(a: int, b: int) -> float:
     if b == 0:
         raise ValueError("No se puede dividir entre cero")
     return a / b
+
+
+def par_impar(numero):
+    """Devuelve 'Es par' si el numero es par y 'Es impar' si es impar."""
+    if numero % 2 == 0:
+        return "Es par"
+    else:
+        return "Es impar"
